@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
+@font-face {
+  font-family: "Allenoire Free Personal";
+  src: url("/public/FontsFree-Net-Allenoire-Font.ttf");
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Circular Std";
+  src: url("/public/FontsFree-Net-Allenoire-Font.ttf");
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Circular Std";
+  src: url("/public/adineue PRO Bold.ttf");
+  font-weight: 500;
+}
+@font-face {
+  font-family: "Arial";
+  src: url("/public/ARIALBD 1.TTF");
+  font-weight: 700;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body {
+  @apply leading-[normal] m-0;
+}
+*,
+::before,
+::after {
+  border-width: 0;
+}
